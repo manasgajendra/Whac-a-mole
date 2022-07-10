@@ -1,0 +1,27 @@
+.grid {
+    height: 606px;
+    width: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    background-color: rgb(215, 193, 237);
+}
+
+.mole {
+    background-color: blueviolet;
+}
+
+.fixedwidth {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.break {
+    clear: both;
+}
